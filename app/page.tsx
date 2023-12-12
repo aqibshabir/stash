@@ -26,7 +26,7 @@ export default function Home() {
             className="flex cursor-pointer bg-blue-600 p-5 w-fit rounded-full"
           >
             Try it for free
-            <ArrowRight className="ml-10" />
+            <ArrowRight className="ml-5" />
           </Link>
         </div>
         <div className="bf-[#1E1919] dark:bg-slate-800 h-full p-10">
