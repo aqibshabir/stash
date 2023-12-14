@@ -67,7 +67,7 @@ function Dropzone() {
     setLoading(false);
   };
 
-  const maxSize = 20971520; //20mb ion bytes
+  const maxSize = 20971520; //20mb in bytes
 
   return (
     <DropzoneComponent minSize={0} maxSize={maxSize} onDrop={onDrop}>
