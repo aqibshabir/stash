@@ -33,8 +33,13 @@ async function Dashboard() {
           {/* {TableWrapper} */}
           <TableWrapper skeletonFiles={skeletonFiles} />
         </div>
-      </section>
+      </section>\<div className="h-[300px]">
+      </div>
+      <footer className="flex justify-center items-end h-20 p-2 text-white bg-[#2B2929] dark:bg-slate-800">
+        &copy; Aqib Shabir 2024
+      </footer>
     </div>
+    
   );
 }
 

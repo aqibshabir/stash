@@ -3,21 +3,18 @@ import Image from "next/image";
 import React from "react";
 import { SignInButton, UserButton, SignedOut } from "@clerk/nextjs";
 import { ThemeToggler } from "./ThemeToggler";
+import { FaBoxOpen } from "react-icons/fa";
 
 function Header() {
   return (
     <header className="flex items-center justify-between">
       <Link href="/" className="flex items-center space-x-2">
         <div className="bg-[#0160FE] w-fit">
-          <Image
-            src="https://www.shareicon.net/data/2048x2048/2016/07/13/606936_dropbox_2048x2048.png"
-            alt="logo"
-            className="invert"
-            height={50}
-            width={50}
-          ></Image>
+          <FaBoxOpen
+            className="text-white w-[45px] h-[45px] p-2"
+          />
         </div>
-        <h1 className="font-bold text-xl">DropBox</h1>
+        <h1 className="font-bold text-xl text-[#0160FE] dark:text-white">Stashed</h1>
       </Link>
 
       <div className="px-5 flex space-x-2 item-center">
