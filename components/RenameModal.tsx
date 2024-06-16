@@ -58,7 +58,7 @@ function RenameModal() {
 
           <Input
             id="link"
-            defaultValue={filename}
+            defaultValue={filename ?? ""}
             onChange={(e) => setInput(e.target.value)}
             onKeyDownCapture={(e) => {
               if (e.key === "Enter") {
